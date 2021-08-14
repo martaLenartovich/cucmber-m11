@@ -1,0 +1,362 @@
+[
+  {
+    "description": "  This feature verify Search Job functionalitiy.",
+    "elements": [
+      {
+        "description": "",
+        "id": "search-job-on-epam.com;open-careers-page",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Open Careers page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I open epam.com",
+            "match": {
+              "location": "..\\specs\\steps.ts:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4611000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I Click on Careers tab",
+            "match": {
+              "location": "..\\specs\\steps.ts:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3910000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Page Title is \"Explore Professional Growth Opportunities | EPAM Careers\"",
+            "match": {
+              "location": "..\\specs\\steps.ts:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "search-job-on-epam.com;fill-in-search-form-and-find-job",
+        "keyword": "Scenario Outline",
+        "line": 9,
+        "name": "Fill in Search Form and find job",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I open epam.com",
+            "match": {
+              "location": "..\\specs\\steps.ts:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1045000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I Click on Careers tab",
+            "match": {
+              "location": "..\\specs\\steps.ts:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 838000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I Enter \"Software Testing Engineer\" in Keyword field",
+            "match": {
+              "location": "..\\specs\\steps.ts:83"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 160000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I Select \"All Cities in Belarus\" option in Location dropdown",
+            "match": {
+              "location": "..\\specs\\steps.ts:95"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 442000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I Click \"Find\" button",
+            "match": {
+              "location": "..\\specs\\steps.ts:120"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2210000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "Result line appears",
+            "match": {
+              "location": "..\\specs\\steps.ts:143"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "search-job-on-epam.com;fill-in-search-form-and-find-job",
+        "keyword": "Scenario Outline",
+        "line": 9,
+        "name": "Fill in Search Form and find job",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I open epam.com",
+            "match": {
+              "location": "..\\specs\\steps.ts:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 749000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I Click on Careers tab",
+            "match": {
+              "location": "..\\specs\\steps.ts:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 785000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I Enter \"Software Engineer\" in Keyword field",
+            "match": {
+              "location": "..\\specs\\steps.ts:83"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 127000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I Select \"All Cities in Belarus\" option in Location dropdown",
+            "match": {
+              "location": "..\\specs\\steps.ts:95"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 418000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I Click \"Find\" button",
+            "match": {
+              "location": "..\\specs\\steps.ts:120"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1474000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "Result line appears",
+            "match": {
+              "location": "..\\specs\\steps.ts:143"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "search-job-on-epam.com;fill-in-search-form-and-find-job",
+        "keyword": "Scenario Outline",
+        "line": 9,
+        "name": "Fill in Search Form and find job",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I open epam.com",
+            "match": {
+              "location": "..\\specs\\steps.ts:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 801000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I Click on Careers tab",
+            "match": {
+              "location": "..\\specs\\steps.ts:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1128000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I Enter \"Accountant\" in Keyword field",
+            "match": {
+              "location": "..\\specs\\steps.ts:83"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 113000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I Select \"All Cities in Belarus\" option in Location dropdown",
+            "match": {
+              "location": "..\\specs\\steps.ts:95"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 450000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I Click \"Find\" button",
+            "match": {
+              "location": "..\\specs\\steps.ts:120"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1823000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "Result line appears",
+            "match": {
+              "location": "..\\specs\\steps.ts:143"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "search-job-on-epam.com",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Search job on epam.com",
+    "tags": [],
+    "uri": "..\\features\\search-job.feature"
+  }
+]
